@@ -13,5 +13,6 @@ namespace CowsAndBullsGame
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
