@@ -13,10 +13,19 @@ namespace CowsAndBullsGame
             InitializeComponent();
         }
 
-        private void MainWindow_OnMouseDown(object sender, MouseButtonEventArgs e)
+        private void ContinueButton_Click(object sender, RoutedEventArgs e)
         {
-            if (e.ChangedButton == MouseButton.Left)
-                this.DragMove();
+            throw new System.NotImplementedException();
+        }
+
+        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
